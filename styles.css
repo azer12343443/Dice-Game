@@ -86,9 +86,7 @@ footer p{
  
 
 @media (max-width:600px){
-    body{
-        padding:100px 0PX 0PX 0PX;
-    }
+ 
     h1{
         font-size: 60px;
     }
