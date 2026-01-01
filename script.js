@@ -15,16 +15,16 @@ let link = [link1,link2,link3,link4,link5,link6];
    let p1 = Math.floor(Math.random()*link.length);
    let p2 = Math.floor(Math.random()*link.length); 
    if(p1>p2){
-    p1text.innerHTML="winner🚩";
-    p2text.innerHTML="loser";
+    p1text.innerHTML="🚩winner";
+    p2text.innerHTML="loser❌";
    }
    else if(p1<p2){
       p2text.innerHTML="winner🚩";
-      p1text.innerHTML="loser";
+      p1text.innerHTML="❌loser";
    }
    else{
-      p1text.innerHTML="winner🚩";
-      p2text.innerHTML="winner🚩";
+      p1text.innerHTML="🍦Draw";
+      p2text.innerHTML="Draw🍦";
    }
    let lplink = link[p1];
    let lplink2 = link[p2];
